@@ -95,7 +95,7 @@ Then paste the code in **pi_5_can.py**.
 
 <pre>
 
-  import asyncio
+import asyncio
 import can
 from kuksa_client.grpc.aio import VSSClient
 import math
