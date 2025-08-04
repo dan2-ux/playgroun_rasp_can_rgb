@@ -25,6 +25,8 @@ In readme file, you will learn how to set up the connection to control NeoPixels
 Rasberry pi 5 will connect with Arduino UNO R4 wifi through can bus protocle using 2 MCP2515 (can transciever). One pi 5 end, pi 5 will run sdv-runtime, it will connect pi 5 with playground. On the other side, R4 wifi will connect to neo-pixels.
 
 ## Wiring
+### Wiring for Raspberry pi 5 and MCP2515.
+
 |     Pi 5     |     MCP2515     |  
 |--------------|-----------------|
 |      5V      |       5V        |
@@ -35,6 +37,29 @@ Rasberry pi 5 will connect with Arduino UNO R4 wifi through can bus protocle usi
 |    GPIO 9    |       SO        |
 |    GPIO 8    |       CS        |
 
+###  Wiring for Arduino UNO R4 WIFI and MCP2515.
+
+|      **R4 WIFI**     |     **MCP2515**     |
+|          3.3V        |         5V          |
+|          GND         |         GND         |
+|          Pin 2       |         INT         |
+|          Pin 13      |         SCK         |
+|          Pin 11      |         SI          |
+|          Pin 12      |         SO          |
+|          Pin 10      |         CS          |
+
+### Wiring for Arduino UNO R4 WIFI and neo-pixels.
+
+|     **R4 WIFI**     |     **NEO-PIXELS**     |
+|         5V          |           5V           |
+|         GND         |           GND          |
+|         Pin 6       |           Din          |
+
+### Wiring between 2 MCP2515.
+
+|     **MCP2515**     |     **MCP2515**     |
+|        canH         |         canH        |
+|        canL         |         canL        |
 
 ## Step-by-Step Guide
 
