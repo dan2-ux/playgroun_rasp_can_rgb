@@ -40,6 +40,7 @@ Rasberry pi 5 will connect with Arduino UNO R4 wifi through can bus protocle usi
 ###  Wiring for Arduino UNO R4 WIFI and MCP2515.
 
 |      R4 WIFI     |     MCP2515     |
+|------------------|-----------------|
 |        3.3V      |       5V        |
 |        GND       |       GND       |
 |        Pin 2     |       INT       |
@@ -51,6 +52,7 @@ Rasberry pi 5 will connect with Arduino UNO R4 wifi through can bus protocle usi
 ### Wiring for Arduino UNO R4 WIFI and neo-pixels.
 
 |     R4 WIFI     |     NEO-PIXELS     |
+|-----------------|--------------------|
 |       5V        |         5V         |
 |       GND       |         GND        |
 |       Pin 6     |         Din        |
@@ -58,6 +60,7 @@ Rasberry pi 5 will connect with Arduino UNO R4 wifi through can bus protocle usi
 ### Wiring between 2 MCP2515.
 
 |     MCP2515     |     MCP2515     |
+|-----------------|-----------------|
 |      canH       |       canH      |
 |      canL       |       canL      |
 
